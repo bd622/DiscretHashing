@@ -54,7 +54,7 @@ while i < maxItr
         case 'L2'
             Q = nu*XF + Y*Wg';
             
-            B = zeros(size(B));          
+           % B = zeros(size(B));          
             for time = 1:10           
                Z0 = B;
                 for k = 1 : size(B,2)
